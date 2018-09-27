@@ -54,10 +54,21 @@ a:visited {
 }
 .vcenter {
     position: relative;
-    top: 50%;
+    top: 20%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
+}
+.commishNote {
+    position: relative;
+    top: 35%;
+    padding: 20px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+.bold {
+  font-weight: bold;
 }
 .fill {
     height: 100vh;
